@@ -1,8 +1,13 @@
 class Animal
  
+ def horse
+   "Hello I am horse"
+ end
+
  def cat
  	"Hello I am cat"
  end
+
  def dog
  	"Hello I am dog"
  end
@@ -12,7 +17,8 @@ class Animal
    		puts dog
 	elsif name == 'cat'
 		puts cat
-		
+	elsif name == 'horse'
+	  horse
 	else
 		puts "default message"
 	end
